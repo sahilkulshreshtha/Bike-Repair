@@ -1,0 +1,146 @@
+
+body {
+    background-image: linear-gradient(#FC5E55, #FA4083);
+   font-family:'Roboto', sans-serif; 
+    color: white;
+    font-size: 1.125 rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+.container {
+    width: 1024px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-image {
+
+}
+
+ul li {
+    display: block;
+}
+
+main {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.cards {
+   
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+    
+}
+
+.card1 {
+   background-image: url(images/image-background-card1.jpg);
+  min-height: 250px;
+  background-size: cover;
+  background-position: bottom;
+  width: 30%;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.425);
+}
+.card2 {
+     background-image: url(images/image-background-card2.jpg);
+    min-height: 250px;
+    width:30%;
+    background-size: cover;
+  background-position: bottom;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.425);
+  }
+  
+  .card3 {
+    background-image: url(images/image-background-card3.jpg);
+    min-height: 250px;
+    width:30%;
+    background-size: cover;
+    background-position: bottom;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.425);
+  }
+
+  .herobox1 {
+   
+      flex: 2;
+      padding-right: 100px;
+      
+  }
+
+  .herobox2 {
+   
+    flex: 1;
+   
+}
+h1 {
+    font-size: 3.325rem;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 1.5rem;
+}
+h2 {
+    font-size: 2.325rem;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    margin-bottom: 1.5rem;
+    font-weight: 100;
+}
+
+.cards p {
+    font-size: .9rem;
+    line-height: 1.2rem;
+    margin: 10px 30px 20px 30px;
+}
+
+
+.mybutton {
+color: #FA4083;
+background-color: white;
+padding: 11px 25px;
+margin: 25px 0px;
+border-radius: 2px;
+box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.425);
+font-family: 'Playfair Display', serif;
+}
+
+nav a.nav-button {
+background-color: rgba(255, 255, 255, 0);
+color: white;
+border: 1px solid;
+margin-left: 1px;
+padding: 11px 25px;
+font-family: 'Playfair Display', serif;
+}
+
+.testimonials {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   margin-bottom: 30px;
+}
+
+.tbox {
+    width: 47%;
+    padding: 50px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
