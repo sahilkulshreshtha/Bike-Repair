@@ -42,6 +42,11 @@ main {
     
 }
 
+.main {
+    min-height: 300px;
+    padding-top: 25px;
+}
+
 .cards {
    
     display: flex;
@@ -192,3 +197,24 @@ color: #FA4083;
 .dropdown .navbutton:hover {
     background-color: lightgrey;
     }
+
+.inputwrapper {
+    margin-bottom: 20px;
+}
+
+input[type=text], input[type=email], textarea {
+    padding: 11px 20px;
+    font-size: .85rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.newline {
+    display: block;
+    margin-bottom: 10px; 
+}
+
+form {
+    margin: 40px 0px;
+}
